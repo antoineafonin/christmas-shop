@@ -8,6 +8,13 @@ ul {
     list-style: none;
 }
 
+p {
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.48em;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -37,7 +44,7 @@ ul {
     font-size: 12px;
     font-family: "Montserrat", serif;
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 0.05em;
     padding: 20px 32px;
     text-transform: uppercase;
 }
@@ -52,7 +59,6 @@ ul {
     font-family: "Montserrat", serif;
     font-weight: 600;
     text-transform: uppercase;
-    color: #fff;
 }
 
 .header__content {
@@ -76,9 +82,10 @@ ul {
     color: #181c29;
     font-family: "Montserrat", serif;
     font-size: 12px;
-    letter-spacing: 5px;
+    letter-spacing: 0.05em;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .menu__link:hover {
@@ -111,7 +118,6 @@ ul {
     background-size: cover, contain;
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
-
 }
 
 .gift__content-container {
@@ -131,7 +137,55 @@ ul {
 
 .gift__title {
     font-size: 32px;
-    letter-spacing: 2px;
+    letter-spacing: 0.18em;
     line-height: 150%;
     padding-bottom: 12px;
+    color: #fff;
 }
+
+.hero {
+    padding: 60px 0;
+    background-image: url("../images/bg-snow.png");
+    background-size: cover, contain;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.hero__content {
+    width: 1276px;
+    height: 528px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__content-text {
+    padding: 100px 152px 100px 60px;
+}
+
+.about {
+    color: #ff4646;
+    padding-bottom: 20px;
+}
+
+.hero__title {
+    padding-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 0.16em;
+}
+
+.hero__text {
+    font-size: 16px;
+}
+
+.hero__container-img {
+
+}
+
+.hero__img {
+    border-radius: 12px;
+}
+
